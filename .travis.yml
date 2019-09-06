@@ -2,6 +2,7 @@ sudo: required
 services: - docker
 
 before_install:
+  - gem install bundler
   - cp .env.test.dist .env
   - docker-compose up -d
   - docker-compose exec web composer install --no-interaction
