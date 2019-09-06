@@ -26,9 +26,7 @@ docker-compose up -d
 docker-compose exec --user=application web composer install
 ```
 
-#### Ce que je n'ai pas fait ou réussir à faire
+#### Ce que je n'ai pas réussir
 
-- Editer la carte de l'utilisateur courant
-- Les tests unitaires
-- Swagger Api doc
-Et c'est possible que j'en ai oublié encore 1 ou 2 taches
+- Travis CI
+- Heroku
