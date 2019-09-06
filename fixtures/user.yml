@@ -1,0 +1,9 @@
+App\Entity\User:
+  user_{1..10}:
+    firstname: <firstname()>
+    lastname: <lastname()>
+    email: <email()>
+    createdAt: <dateTimeBetween('-100 years', '-10 years')>
+    address: "10 avenue michelet 93400 Saint-Ouen"
+    country: "France"
+    subscription: '@subscription_*'

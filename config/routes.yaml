@@ -1,0 +1,6 @@
+#home:
+#    path: /
+#    controller: App\Controller\HomeController::home
+anonymous:
+  type: rest
+  resource: App\Controller\AnonymousController

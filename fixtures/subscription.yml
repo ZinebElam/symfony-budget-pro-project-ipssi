@@ -1,0 +1,5 @@
+App\Entity\Subscription:
+  subscription_{1..10}:
+    name: "un nom"
+    slogan: "un slogan"
+    url: "www.google.fr"

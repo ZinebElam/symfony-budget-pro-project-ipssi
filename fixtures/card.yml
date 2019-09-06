@@ -1,0 +1,8 @@
+App\Entity\Card:
+  card_{1..10}:
+    user: '@user_*'
+    name: <firstname()>
+    creditCardType: "Visa"
+    creditCardNumber: "1234567891230"
+    currencyCode: "Eur"
+    value: <numberBetween("1","100000")>
